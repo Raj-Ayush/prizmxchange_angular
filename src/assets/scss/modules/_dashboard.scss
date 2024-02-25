@@ -1,0 +1,30 @@
+._dashboard {
+    &_header {
+        height: 88vh;
+        width: 100%;
+    }
+    &__banner {
+    }
+
+    &_cards {
+        position: absolute;
+        width: calc(100% - 100px);
+        // max-width: 600px     ; /* Set a max-width if necessary */
+        background-color: #f0f0f0; /* Set your desired background color */
+        text-align: left;
+        margin: auto;
+        padding: auto;
+        left: 0;
+        right: 0;
+        // top: 0;
+        bottom: 0;
+    }
+
+    &_features {
+        height: auto;
+        overflow: hidden;
+        background-image: url("../../images/bg-03_home.png") ;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
